@@ -1,0 +1,52 @@
+/*Home Page*/
+
+#home #header_container {
+	height:282px;
+	background-image:url(/images/bg_home_header.jpg);
+}
+
+#home #header_logo {
+	width:215px;
+	height:110px;
+}
+
+#home #header_menu ul {
+	padding-top:148px; 
+}
+
+#home #left_container {
+	background-image:url(/images/bg_home_left.jpg);
+}
+
+#home #client_login {
+	padding-top:0px;
+}
+
+#home #main_content {
+	background-image:url(/images/bg_home_lright.jpg);
+}
+
+#home #breadcrumb {
+	visibility:hidden;
+	display:none;
+}
+
+#home #main_text {
+	width:480px;
+	padding-top:30px;
+	padding-right:200px;
+}
+
+#home #footer {
+	height:23px;
+	background-image:url(/images/bg_home_footer.jpg);
+}
+
+#home #footer_left {
+	padding-top:5px;
+}
+
+#home #footer_right {
+	padding:5px 0 0 0;
+	text-align:right;
+}

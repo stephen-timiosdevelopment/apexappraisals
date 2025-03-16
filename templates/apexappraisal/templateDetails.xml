@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE install PUBLIC "-//Joomla! 1.5//DTD template 1.0//EN" "http://www.joomla.org/xml/dtd/1.5/template-install.dtd">
+<install version="1.5" type="template">
+	<name>apexappraisal</name>
+	<creationDate>October 1, 2009</creationDate>
+	<author>eBizResults, LLC</author>
+	<authorEmail>ebizteam@ebizresults.com</authorEmail>
+	<authorUrl>http://www.ebizresults.com</authorUrl>
+	<copyright></copyright>
+	<license>GNU/GPL</license>
+	<version>1.0.2</version>
+	<description>Apex Appraisal Services, LLC</description>
+	<files>
+		<filename>index.php</filename>
+		<filename>templateDetails.xml</filename>
+		<filename>template_thumbnail.png</filename>
+		<filename>params.ini</filename>
+		<filename>images/arrow.png</filename>
+		<filename>images/bg_about_lright.jpg</filename>
+		<filename>images/bg_home_footer.jpg</filename>
+		<filename>images/bg_home_header.jpg</filename>
+		<filename>images/bg_home_left.jpg</filename>
+		<filename>images/bg_home_logo.jpg</filename>
+		<filename>images/bg_home_lright.jpg</filename>
+		<filename>images/bg_inside_footer.jpg</filename>
+		<filename>images/bg_inside_header.jpg</filename>
+		<filename>images/bg_inside_left.jpg</filename>
+		<filename>images/bg_button_order.jpg</filename>
+		<filename>images/spacer.png</filename>
+		<filename>images/index.html</filename>
+		<filename>css/index.html</filename>
+		<filename>css/template.css</filename>
+		<filename>css/template_global.css</filename>
+		<filename>css/template_joomla.css</filename>
+		<filename>css/template_menu.css</filename>
+		<filename>css/template_pages.css</filename>
+		<filename>css/template_home.css</filename>
+	</files>
+	<positions>
+		<position>breadcrumb</position>
+		<position>left</position>
+		<position>right</position>
+		<position>top</position>
+		<position>user1</position>
+		<position>user2</position>
+		<position>user3</position>
+		<position>user4</position>
+		<position>menu</position>
+		<position>clientlogin</position>
+		<position>appraisal</position>
+		<position>testimonial</position>
+		<position>footer</position>
+		<position>footermenu</position>
+		<position>debug</position>
+		<position>syndicate</position>
+	</positions>
+</install>

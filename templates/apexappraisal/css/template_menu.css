@@ -1,0 +1,135 @@
+/***** Top/Main Menu *****/
+
+#header_logo a {
+	text-decoration:none;
+}
+
+/*main headings*/
+#header_menu ul {
+	padding:28px 0 0 302px; 
+	margin:0px; 
+	list-style-type:none;
+	color:#0c557d;
+	font-size:13px;
+	font-weight:bold;
+}
+
+
+/*This floats the menu so they appear side by side and not on top of eachother.*/
+#header_menu ul li {
+	position:relative;
+	float:left;
+	line-height:140%;
+	padding:0;
+	margin:0;
+}
+
+#header_menu ul li#current a span {
+	color:#FFFFFF;
+}
+
+li.active a {
+	color:#FFFFFF;
+}
+
+/*This changes the top level menu's links*/
+#header_menu ul li a {
+	padding:0 7px;
+	margin:0;
+	display:block;
+	color:#0c557d;
+	text-decoration:none;
+}
+
+/*This changes the position and appearance of the submenus*/
+#header_menu ul li ul {
+	display:none; 
+	position:absolute;
+	background-color:#3E3E3E;
+	line-height:140%;
+	padding:0;
+	margin:0;
+	width:120px;
+}
+
+#header_menu ul li ul li {
+	padding:0;
+	margin:0;
+	clear:both;
+	white-space:nowrap;
+	width:120px;
+}
+
+/*This changes the submenu links*/
+#header_menu li ul li a {
+	padding:3px 7px;
+	color:#FFFFFF;
+	width:106px;
+}
+
+/*This changes the hover for all links in the menu div*/
+#header_menu ul li a:hover {
+	/*background:#DF6F1D;*/
+	color:#FFFFFF;
+}
+
+#header_menu li ul li a:hover {
+	background-color:#a99a6f;
+	color:#3E3E3E;
+}
+
+/*#header_menu li#current a,
+#header_menu li.active a {
+	background:#DF6F1D;
+}*/
+
+
+/*This makes the submenu list display in the hover. Do not change either of the commands listed below.*/
+#header_menu li:hover ul {
+	display:block;
+}
+
+#header_menu li.over ul {
+	display:block;
+}
+
+#header_menu span {
+		padding:0;
+		margin:0;
+}
+
+#header_menu span.separator {
+		padding:0;
+		margin:0;
+}
+
+
+/***** Footer Menu *****/
+
+#footermenu {	
+	padding:1px 0 0 10px;
+	margin:0;
+	list-style-type:none;
+	color:#FFFFFF;
+	text-align:right;
+}
+
+#footermenu li {	
+	padding:0;
+	margin:0;
+	list-style-type:none;
+	float:left;
+	text-align:right;
+}
+
+#footermenu li a {	
+	padding:0;
+	margin:0;
+	font-size:11px;
+	color:#FFFFFF;
+	text-decoration:none;
+}
+
+#footermenu li a:hover {
+	color:#0c557d;
+}
